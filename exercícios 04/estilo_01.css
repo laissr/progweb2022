@@ -1,0 +1,154 @@
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.lugar {
+	background-color: rgba(195, 172, 206);
+	border-color: #796C6D;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 5px 8px grey;
+}
+
+body {
+	font-family:"Lucida Sans Unicode", verdana, sans-serif;
+	line-height: 1.6;
+	background: #DFD9E2 url('noise.png');
+}
+
+.lugar h2 {
+	border-bottom: 1px dashed #837988;
+	margin: 0;
+}
+
+.lugar a {
+		color: #796C6D;
+		font-weight: bold;
+}
+
+a {
+		color: #796C6D;
+		text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
+}
+
+.lugar img {
+		height: 200px;
+		border: 1px solid black;
+		float: left;
+		margin: 10px 10px 0 0;
+		padding: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+.notas {
+	background-color: rgba(195, 172, 206);
+	padding: 10px;
+	float: right;
+	width: 200px;
+	border-color: 5C6818;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 5px 8px grey;
+}
+
+.notas h3 {
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.notas ol {
+	font-size: 12px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #796C6D;
+}
+
+.tudo {
+	float: left;
+	width: 660px;
+}
+
+table, td {
+	border: 1px dashed white;
+	border-collapse: collapse;
+}
+
+.tabela {
+	background-color: rgba(195, 172, 206);
+	padding: 10px;
+	float: right;
+	width: 200px;
+	border-color: 837988;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 5px 8px grey;
+}
+
+.mapa {
+	background-color: rgba(195, 172, 206);
+	padding: 10px;
+	float: right;
+	width: 200px;
+	border-color: 837988;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 5px 8px grey;
+}
+
+.formulario {
+	background-color: rgba(195, 172, 206);
+	padding: 10px;
+	float: right;
+	width: 200px;
+	border-color: 837988;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-shadow: 5px 8px grey;
+}
+
+input[type=text],textarea, select {
+    width: 100%;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #837988;
+    outline: none;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #837988;
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 100px;
+    margin: 10 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+textarea{
+    line-height: 20px;
+    height: 90px;
+}
